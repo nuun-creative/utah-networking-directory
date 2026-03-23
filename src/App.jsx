@@ -1569,38 +1569,36 @@ export default function UtahNetworkingDirectory() {
   const [subscriberCount, setSubscriberCount] = useState(null);
   const [alreadySignedUp, setAlreadySignedUp] = useState(false);
 
-  // Load subscriber count on mount
+  // Load signup state on mount
   useEffect(() => {
-    (async () => {
-      try {
-        const result = (() => { const v = localStorage.getItem("founder-list-meta"); return v ? { value: v } : null; })();
-        if (result) {
-          const meta = JSON.parse(result.value);
-          setSubscriberCount(meta.count || 0);
-        }
-      } catch { setSubscriberCount(0); }
-      // Check if current user already signed up
-      try {
-        const existing = (() => { const v = localStorage.getItem("my-founder-signup"); return v ? { value: v } : null; })();
-        if (existing) setAlreadySignedUp(true);
-      } catch {}
-    })();
+    try {
+      const existing = localStorage.getItem("founder-signup-done");
+      if (existing) setAlreadySignedUp(true);
+      const count = localStorage.getItem("founder-signup-count");
+      if (count) setSubscriberCount(parseInt(count, 10));
+    } catch {}
   }, []);
 
   const handleSignup = async () => {
     if (!signupEmail || !signupEmail.includes("@")) return;
     setSignupStatus("saving");
     try {
-      const entry = { email: signupEmail, name: signupName, signedUpAt: new Date().toISOString() };
-      localStorage.setItem("my-founder-signup", JSON.stringify(entry));
-      // Update shared subscriber count
-      let currentCount = 0;
-      try {
-        const meta = (() => { const v = localStorage.getItem("founder-list-meta"); return v ? { value: v } : null; })();
-        if (meta) currentCount = JSON.parse(meta.value).count || 0;
-      } catch {}
-      localStorage.setItem("founder-list-meta", JSON.stringify({ count: currentCount + 1 }));
-      setSubscriberCount(currentCount + 1);
+      const res = await fetch("https://formspree.io/f/xreynbkq", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          name: signupName,
+          email: signupEmail,
+          source: "founder-list",
+          signedUpAt: new Date().toISOString(),
+        }),
+      });
+      if (!res.ok) throw new Error("Formspree error");
+      // Track locally so UI stays collapsed on return visits
+      localStorage.setItem("founder-signup-done", "true");
+      const prevCount = parseInt(localStorage.getItem("founder-signup-count") || "0", 10);
+      localStorage.setItem("founder-signup-count", String(prevCount + 1));
+      setSubscriberCount(prevCount + 1);
       setSignupStatus("success");
       setAlreadySignedUp(true);
     } catch {
