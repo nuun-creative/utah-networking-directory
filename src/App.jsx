@@ -66,7 +66,7 @@ const EVENTS = [
     cost: "Free",
     recurring: true,
     recurrenceNote: "Every Wednesday",
-    url: "https://435locals.com/event/connect-utah-stg-2-2/",
+    url: "https://435locals.com/event/connect-utah-stg-4/",
     description: "Drop-in weekly networking in Southern Utah. No RSVP needed — just bring business cards and connect with local professionals and entrepreneurs."
   },
   {
@@ -119,74 +119,6 @@ const EVENTS = [
   },
   {
     id: 8,
-    title: "Silicon Slopes Startup Networking",
-    organizer: "Silicon Slopes",
-    date: "2026-04-08",
-    time: "5:30 PM – 7:30 PM",
-    location: "Lehi",
-    venue: "Silicon Slopes HQ, 2600 W Executive Pkwy Ste 140",
-    region: "Utah County",
-    category: "Networking Mixer",
-    industry: "Technology",
-    cost: "Free",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://www.siliconslopes.com/events",
-    description: "Monthly networking at Silicon Slopes HQ for founders, developers, and tech professionals. Learn, connect, and grow Utah's startup ecosystem."
-  },
-  {
-    id: 9,
-    title: "Utah Entrepreneur Community Meetup",
-    organizer: "Utah's Entrepreneur Community",
-    date: "2026-04-02",
-    time: "6:00 PM – 8:00 PM",
-    location: "Draper",
-    venue: "Rotating venues — Draper/Lehi/SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "Startups & Entrepreneurship",
-    cost: "Free",
-    recurring: true,
-    recurrenceNote: "Biweekly",
-    url: "https://www.meetup.com/utah-tech-startups/",
-    description: "Relaxed meetup for founders and small business owners covering product-market fit, MVPs, fundraising, and finding co-founders."
-  },
-  {
-    id: 10,
-    title: "Connect Share Networking",
-    organizer: "Connect Share",
-    date: "2026-04-01",
-    time: "11:30 AM – 1:00 PM",
-    location: "South Jordan",
-    venue: "10808 River Front Pkwy, Ste 300",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Members Only",
-    recurring: true,
-    recurrenceNote: "Weekly",
-    url: "https://connectshare.com/one-page/salt-lake/",
-    description: "Structured weekly networking with curated teams. Educational trainings and relationship-focused approach to business referrals."
-  },
-  {
-    id: 11,
-    title: "Connect Share Orem Networking",
-    organizer: "Connect Share",
-    date: "2026-04-01",
-    time: "11:30 AM – 1:00 PM",
-    location: "Orem",
-    venue: "1155 S 800 E, Ste 156",
-    region: "Utah County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Members Only",
-    recurring: true,
-    recurrenceNote: "Weekly",
-    url: "https://connectshare.com/one-page/salt-lake/",
-    description: "Structured weekly networking with curated teams in Utah County. Build lasting referral relationships with dedicated business professionals."
-  },
-  {
-    id: 12,
     title: "UV Chamber Summit at Sundance",
     organizer: "Utah Valley Chamber of Commerce",
     date: "2026-10-23",
@@ -202,7 +134,7 @@ const EVENTS = [
     description: "Full-day business summit at Sundance Mountain Resort featuring keynotes, breakout sessions, and mountain-setting networking."
   },
   {
-    id: 13,
+    id: 9,
     title: "Utah Business Founder Series",
     organizer: "Utah Business Magazine",
     date: "2026-09-18",
@@ -219,7 +151,7 @@ const EVENTS = [
     description: "Intimate fireside chat with a Utah founder who built a nationally recognized brand. Networking with fellow entrepreneurs and business leaders."
   },
   {
-    id: 14,
+    id: 10,
     title: "Utah Business Healthcare Heroes",
     organizer: "Utah Business Magazine",
     date: "2026-10-15",
@@ -235,7 +167,7 @@ const EVENTS = [
     description: "Award ceremony and networking event recognizing outstanding contributions to healthcare across Utah. Connect with top healthcare professionals and executives."
   },
   {
-    id: 15,
+    id: 11,
     title: "Bench to Bedside Networking – Medical Innovation",
     organizer: "University of Utah Health",
     date: "2026-04-01",
@@ -251,41 +183,7 @@ const EVENTS = [
     description: "Networking with medical device innovators, clinicians, and students. Presentations by industry professionals followed by open networking."
   },
   {
-    id: 16,
-    title: "Cedar City Business Networking Lunch",
-    organizer: "Cedar City Chamber of Commerce",
-    date: "2026-04-08",
-    time: "11:30 AM – 1:00 PM",
-    location: "Cedar City",
-    venue: "Chef Alfredo's, Cedar City",
-    region: "Southern Utah",
-    category: "Chamber",
-    industry: "General Business",
-    cost: "Free",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://435locals.com/business-networking-in-southern-utah/",
-    description: "Monthly networking luncheon for Iron County business owners and professionals. Casual format at a local restaurant."
-  },
-  {
-    id: 17,
-    title: "Hurricane Business Networking Evening",
-    organizer: "Southern Utah Business Associations",
-    date: "2026-04-08",
-    time: "5:00 PM – 7:00 PM",
-    location: "Hurricane",
-    venue: "4295 W Canterbury Rd, Hurricane",
-    region: "Southern Utah",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Paid",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://435locals.com/business-networking-in-southern-utah/",
-    description: "Evening networking event for Southern Utah business professionals in the Hurricane/Washington County area."
-  },
-  {
-    id: 18,
+    id: 12,
     title: "Growth Elevated Ski + Tech Summit",
     organizer: "Growth Elevated",
     date: "2026-03-25",
@@ -301,7 +199,7 @@ const EVENTS = [
     description: "Combining world-class skiing with high-level tech networking. Brings together SaaS founders, VCs, and tech executives for a unique mountain experience."
   },
   {
-    id: 19,
+    id: 13,
     title: "Silicon Slopes Start School",
     organizer: "Silicon Slopes",
     date: "2026-04-15",
@@ -318,7 +216,7 @@ const EVENTS = [
     description: "Free entrepreneur program focused on building sustainable, profitable businesses. No equity, no pitch competitions — just practical skill-building and community."
   },
   {
-    id: 20,
+    id: 14,
     title: "UVU Small Business Expo",
     organizer: "Utah Valley University Business Resource Center",
     date: "2026-10-16",
@@ -334,7 +232,7 @@ const EVENTS = [
     description: "Expo featuring booth exhibitors, breakout sessions, guest speakers, and networking for small business owners and aspiring entrepreneurs."
   },
   {
-    id: 21,
+    id: 15,
     title: "Salt Lake Chamber Member Orientation",
     organizer: "Salt Lake Chamber",
     date: "2026-04-16",
@@ -352,7 +250,7 @@ const EVENTS = [
   },
   // ── UTAH BUSINESS MAGAZINE (new) ──
   {
-    id: 22,
+    id: 16,
     title: "CEO of the Year Awards",
     organizer: "Utah Business Magazine",
     date: "2026-03-31",
@@ -368,7 +266,7 @@ const EVENTS = [
     description: "Annual awards honoring Utah CEOs who have led their organizations with strength, courage, and endurance. Premier networking with top executives."
   },
   {
-    id: 23,
+    id: 17,
     title: "Founder Friday: Gavin Christensen (Kickstart)",
     organizer: "Utah Business Magazine",
     date: "2026-04-24",
@@ -385,7 +283,7 @@ const EVENTS = [
     description: "Intimate fireside chat with Gavin Christensen, founder of Kickstart, on building a nationally recognized brand. Networking with fellow entrepreneurs."
   },
   {
-    id: 24,
+    id: 18,
     title: "Women to Watch Awards",
     organizer: "Utah Business Magazine",
     date: "2026-05-20",
@@ -401,7 +299,7 @@ const EVENTS = [
     description: "Spotlight on women carving out legacies, shattering norms, and paving the way for the next generation of female leaders in Utah business."
   },
   {
-    id: 25,
+    id: 19,
     title: "Founder Friday: Ryan Anderson (Filevine)",
     organizer: "Utah Business Magazine",
     date: "2026-05-22",
@@ -418,7 +316,7 @@ const EVENTS = [
     description: "Fireside chat with Ryan Anderson, founder of Filevine, on building a nationally recognized legal-tech brand from Utah."
   },
   {
-    id: 26,
+    id: 20,
     title: "Executive Excellence Awards",
     organizer: "Utah Business Magazine",
     date: "2026-06-23",
@@ -434,7 +332,7 @@ const EVENTS = [
     description: "Honoring executive team members whose vision and expertise are vital to company growth. Networking with Utah's top C-suite leaders."
   },
   {
-    id: 27,
+    id: 21,
     title: "Innovation Awards Summit",
     organizer: "Utah Business Magazine",
     date: "2026-09-02",
@@ -450,7 +348,7 @@ const EVENTS = [
     description: "Statewide celebration of problem-solving, creativity, and technology. Connect with Utah's most innovative companies and leaders."
   },
   {
-    id: 28,
+    id: 22,
     title: "Best Companies to Work For Awards",
     organizer: "Utah Business Magazine",
     date: "2026-12-10",
@@ -465,27 +363,9 @@ const EVENTS = [
     url: "https://www.utahbusiness.com/best-companies-to-work-for/",
     description: "Recognizing Utah's premier employers as rated by their own workforce. Network with HR leaders and top-rated companies."
   },
-  // ── 1 MILLION CUPS ──
-  {
-    id: 29,
-    title: "1 Million Cups Salt Lake City",
-    organizer: "1 Million Cups / Kauffman Foundation",
-    date: "2026-03-25",
-    time: "9:00 AM – 10:00 AM",
-    location: "Salt Lake City",
-    venue: "Cucina Toscano's, Downtown SLC",
-    region: "Salt Lake County",
-    category: "Speaker Event",
-    industry: "Startups & Entrepreneurship",
-    cost: "Free",
-    recurring: true,
-    recurrenceNote: "Every Wednesday",
-    url: "https://www.meetup.com/1-million-cups-salt-lake-city/",
-    description: "Free weekly startup presentations — two entrepreneurs give 6-minute pitches followed by 20 minutes of Q&A. Open to all. Supportive, educational community."
-  },
   // ── OGDEN-WEBER CHAMBER ──
   {
-    id: 30,
+    id: 23,
     title: "Business After Hours",
     organizer: "Ogden-Weber Chamber of Commerce",
     date: "2026-04-10",
@@ -502,7 +382,7 @@ const EVENTS = [
     description: "Monthly after-hours mixer hosted by a different Ogden-Weber Chamber member each month. Drinks, food, and plenty of networking."
   },
   {
-    id: 31,
+    id: 24,
     title: "Women in Business Luncheon",
     organizer: "Ogden-Weber Chamber of Commerce",
     date: "2026-04-28",
@@ -519,7 +399,7 @@ const EVENTS = [
     description: "Ogden-Weber Chamber's dedicated networking and professional development luncheon for women in business across Weber County."
   },
   {
-    id: 32,
+    id: 25,
     title: "Ogden-Weber Business Forum",
     organizer: "Ogden-Weber Chamber of Commerce",
     date: "2026-04-15",
@@ -537,7 +417,7 @@ const EVENTS = [
   },
   // ── DAVIS CHAMBER ──
   {
-    id: 33,
+    id: 26,
     title: "Davis Chamber Networking Breakfast",
     organizer: "Davis Chamber of Commerce",
     date: "2026-04-09",
@@ -555,7 +435,7 @@ const EVENTS = [
   },
   // ── CACHE VALLEY CHAMBER ──
   {
-    id: 34,
+    id: 27,
     title: "Cache Valley Chamber Networking",
     organizer: "Cache Valley Chamber of Commerce",
     date: "2026-04-08",
@@ -573,7 +453,7 @@ const EVENTS = [
   },
   // ── TOOELE CHAMBER ──
   {
-    id: 35,
+    id: 28,
     title: "Tooele Chamber Monthly Meeting",
     organizer: "Tooele County Chamber of Commerce",
     date: "2026-04-15",
@@ -589,44 +469,9 @@ const EVENTS = [
     url: "https://www.tooelechamber.com/",
     description: "Free monthly meeting with guest speakers and networking. Open to the Tooele County business community. RSVP recommended — limited seating."
   },
-  // ── BNI UTAH ──
-  {
-    id: 36,
-    title: "BNI Utah North — Weekly Chapter Meetings",
-    organizer: "BNI Utah North",
-    date: "2026-03-26",
-    time: "7:00 AM – 8:30 AM",
-    location: "Multiple (Sandy, South Jordan, SLC, Smithfield)",
-    venue: "Various chapter locations across Northern Utah",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Members Only",
-    recurring: true,
-    recurrenceNote: "Weekly (all chapters)",
-    url: "https://bniutahnorth.com/en-US/findachapter",
-    description: "Structured referral networking with dozens of chapters. Visitors can attend twice before joining. Chapters in Sandy, South Jordan, Smithfield, and more."
-  },
-  {
-    id: 37,
-    title: "BNI Utah South — Weekly Chapter Meetings",
-    organizer: "BNI Utah South",
-    date: "2026-03-26",
-    time: "7:00 AM – 8:30 AM",
-    location: "Multiple (Orem, Heber City, St. George)",
-    venue: "Various chapter locations across Southern Utah",
-    region: "Utah County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Members Only",
-    recurring: true,
-    recurrenceNote: "Weekly (all chapters)",
-    url: "https://bniutahsouth.com/en-US/findachapter",
-    description: "BNI's structured referral networking in Utah County and Southern Utah. Impact chapter in Heber City and more. Visitor-friendly."
-  },
   // ── WOMEN TECH COUNCIL ──
   {
-    id: 38,
+    id: 29,
     title: "Women Tech Awards Luncheon",
     organizer: "Women Tech Council",
     date: "2026-10-02",
@@ -642,7 +487,7 @@ const EVENTS = [
     description: "Annual awards recognizing women driving innovation in tech. 150+ women honored over the years. Premier networking with 10,000+ member community."
   },
   {
-    id: 39,
+    id: 30,
     title: "WTC Talent Innovation Summit",
     organizer: "Women Tech Council",
     date: "2026-05-14",
@@ -658,7 +503,7 @@ const EVENTS = [
     description: "Full morning of sessions on building teams, breaking glass ceilings, and tech talent strategy. Includes Shatter List Awards and structured networking."
   },
   {
-    id: 40,
+    id: 31,
     title: "WTC Tech Talk",
     organizer: "Women Tech Council",
     date: "2026-04-17",
@@ -674,96 +519,9 @@ const EVENTS = [
     url: "https://www.womentechcouncil.com/events/",
     description: "Quarterly speaker event for women in tech. Networking lunch with industry presentations and mentoring opportunities."
   },
-  // ── STRIVE NETWORKING (Eventbrite) ──
-  {
-    id: 41,
-    title: "Blockchain & Business Networking — Elevating Your Potential",
-    organizer: "Strive Networking",
-    date: "2026-04-08",
-    time: "6:00 PM – 8:00 PM",
-    location: "Salt Lake City",
-    venue: "Zest Kitchen & Bar, SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "Technology",
-    cost: "Paid",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://strive-networking.com/",
-    description: "Monthly mixer for blockchain, crypto, and tech professionals. Meet investors, engineers, entrepreneurs. Industry-specific networking at Zest Kitchen."
-  },
-  {
-    id: 42,
-    title: "Music & Business Networking — Elevating Your Potential",
-    organizer: "Strive Networking",
-    date: "2026-04-15",
-    time: "6:00 PM – 8:00 PM",
-    location: "Salt Lake City",
-    venue: "TBA, SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "Entertainment & Media",
-    cost: "Paid",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://strive-networking.com/",
-    description: "Monthly networking for music industry professionals, artists, producers, and business owners. Part of Strive's industry-specific mixer series."
-  },
-  {
-    id: 43,
-    title: "Engineering & Business Networking — Elevating Your Potential",
-    organizer: "Strive Networking",
-    date: "2026-04-22",
-    time: "6:00 PM – 8:00 PM",
-    location: "Salt Lake City",
-    venue: "TBA, SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "Technology",
-    cost: "Paid",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://strive-networking.com/",
-    description: "Monthly networking for engineers and technical professionals. Connect with fellow engineers, CTOs, and tech entrepreneurs."
-  },
-  {
-    id: 44,
-    title: "Hospitality & Business Networking — Elevating Your Potential",
-    organizer: "Strive Networking",
-    date: "2026-04-29",
-    time: "6:00 PM – 8:00 PM",
-    location: "Salt Lake City",
-    venue: "TBA, SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "Hospitality & Tourism",
-    cost: "Paid",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://strive-networking.com/",
-    description: "Networking for hospitality, food service, and tourism professionals. Part of Strive's rotating industry-specific mixer series in SLC."
-  },
-  // ── NIAX NETWORKING ──
-  {
-    id: 45,
-    title: "NIAX Next Level Networking — Salt Lake",
-    organizer: "NIAX",
-    date: "2026-04-02",
-    time: "5:30 PM – 8:00 PM",
-    location: "Salt Lake City",
-    venue: "Tucanos Brazilian Grill, SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Paid",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://www.eventbrite.com/e/niax-next-level-networking-salt-lake-tickets-1981617440107",
-    description: "Structured, relationship-driven networking for growth-minded professionals. Learn how to build referral income through trusted connections."
-  },
   // ── SCORE UTAH ──
   {
-    id: 46,
+    id: 32,
     title: "SCORE Speed Networking — St. George",
     organizer: "SCORE Utah",
     date: "2026-04-17",
@@ -779,10 +537,10 @@ const EVENTS = [
     description: "Speed networking at the newly reopened SCORE St. George chapter at Forge. Fast-paced connections for small business owners and entrepreneurs."
   },
   {
-    id: 47,
+    id: 33,
     title: "SCORE Start SMART Workshop",
     organizer: "SCORE Utah",
-    date: "2026-04-05",
+    date: "2026-03-23",
     time: "10:00 AM – 12:00 PM",
     location: "Salt Lake City",
     venue: "Innovation Center, SLC",
@@ -796,7 +554,7 @@ const EVENTS = [
     description: "Free workshop answering basic business start-up questions. Learn how to begin planning your dream business with SCORE certified mentors."
   },
   {
-    id: 48,
+    id: 34,
     title: "SCORE: AI in the Workplace Series",
     organizer: "SCORE Utah & WBC Utah",
     date: "2026-04-22",
@@ -811,27 +569,9 @@ const EVENTS = [
     url: "https://www.score.org/utah/local-workshops",
     description: "Hands-on workshop on leveraging AI ethically for small businesses. Covers data privacy, bias, transparency, and emerging AI trends."
   },
-  // ── CORPORATE ALLIANCE ──
-  {
-    id: 49,
-    title: "Corporate Alliance Utah Networking",
-    organizer: "Corporate Alliance",
-    date: "2026-04-02",
-    time: "5:30 PM – 7:30 PM",
-    location: "Salt Lake City",
-    venue: "TBA, SLC",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Members Only",
-    recurring: true,
-    recurrenceNote: "Monthly",
-    url: "https://www.corporatealliance.net/",
-    description: "Members-only relationship networking. Building real relationships that weather any storm. One of Utah's most established professional networks."
-  },
   // ── TOURISM WORKSHOP ──
   {
-    id: 50,
+    id: 35,
     title: "Tourism Business Development Workshop",
     organizer: "Utah Office of Tourism",
     date: "2026-04-22",
@@ -846,27 +586,9 @@ const EVENTS = [
     url: "https://travel.utah.gov/workshop/",
     description: "Two-day state-sponsored workshop on tourism business development. Agritourism, astrotourism, and destination development. Free registration."
   },
-  // ── KILN COWORKING ──
-  {
-    id: 51,
-    title: "Kiln Member Networking Events",
-    organizer: "Kiln Coworking",
-    date: "2026-04-01",
-    time: "Varies",
-    location: "Multiple (SLC, Lehi, Provo, Park City, St. George, Holladay)",
-    venue: "6 Utah Kiln locations",
-    region: "Salt Lake County",
-    category: "Networking Mixer",
-    industry: "General Business",
-    cost: "Members Only",
-    recurring: true,
-    recurrenceNote: "Weekly across locations",
-    url: "https://kiln.com/member-events/",
-    description: "Member-exclusive events across six Utah Kiln coworking locations. Filter by state in the Kiln member app. Community-building focus."
-  },
   // ── UTAH SBDC (additional) ──
   {
-    id: 52,
+    id: 36,
     title: "SBDC Networking & Workshop — Davis Tech",
     organizer: "Utah Small Business Development Center",
     date: "2026-04-10",
@@ -884,7 +606,7 @@ const EVENTS = [
   },
   // ── OPEN EDX CONFERENCE ──
   {
-    id: 53,
+    id: 37,
     title: "Open edX Conference 2026",
     organizer: "Open edX / Western Governors University",
     date: "2026-05-19",
@@ -898,6 +620,175 @@ const EVENTS = [
     recurring: false,
     url: "https://www.eventbrite.com/e/open-edx-conference-2026-tickets-1967626286189",
     description: "Global conference for educators, developers, and innovators. Keynotes, demos, networking, and collaboration roundtables. Hosted by WGU."
+  },
+  {
+    id: 38,
+    title: "Impactful™ Business Networking",
+    organizer: "Impactful Networking",
+    date: "2026-04-02",
+    time: "6:00 PM – 8:00 PM",
+    location: "Salt Lake City",
+    venue: "TBA, Salt Lake City",
+    region: "Salt Lake County",
+    category: "Networking Mixer",
+    industry: "General Business",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Monthly",
+    url: "https://www.eventbrite.com/e/impactfultm-business-networking-tickets-1984733256598",
+    description: "Monthly business networking event in Salt Lake City. Build meaningful connections with professionals across industries."
+  },
+  {
+    id: 39,
+    title: "Business Networking Workshop — Salt Lake City",
+    organizer: "LearneRRing",
+    date: "2026-04-10",
+    time: "9:00 AM – 5:00 PM",
+    location: "Salt Lake City",
+    venue: "TBA, Salt Lake City",
+    region: "Salt Lake County",
+    category: "Workshop",
+    industry: "Professional Development",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Multiple dates",
+    url: "https://www.eventbrite.com/e/business-networking-1-day-workshop-salt-lake-city-ut-tickets-1931673008969",
+    description: "Full-day workshop on strategic networking skills. Covers personal branding, elevator pitches, LinkedIn optimization, and follow-up strategies. Certificate included."
+  },
+  {
+    id: 40,
+    title: "Business Networking Workshop — West Valley City",
+    organizer: "LearneRRing",
+    date: "2026-04-17",
+    time: "9:00 AM – 5:00 PM",
+    location: "West Valley City",
+    venue: "TBA, West Valley City",
+    region: "Salt Lake County",
+    category: "Workshop",
+    industry: "Professional Development",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Multiple dates",
+    url: "https://www.eventbrite.com/e/business-networking-1-day-workshop-west-valley-city-ut-tickets-1939903546729",
+    description: "Full-day networking skills workshop in West Valley City. Learn to build authentic professional relationships both online and in person."
+  },
+  {
+    id: 41,
+    title: "Business Networking Workshop — St. George",
+    organizer: "LearneRRing",
+    date: "2026-04-24",
+    time: "9:00 AM – 5:00 PM",
+    location: "St. George",
+    venue: "TBA, St. George",
+    region: "Southern Utah",
+    category: "Workshop",
+    industry: "Professional Development",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Multiple dates",
+    url: "https://www.eventbrite.com/e/business-networking-1-day-workshop-st-george-ut-tickets-1939371505379",
+    description: "Full-day networking skills workshop in Southern Utah. Strategic relationship building, communication tools, and personal branding."
+  },
+  {
+    id: 42,
+    title: "Business Networking Workshop — Provo",
+    organizer: "LearneRRing",
+    date: "2026-05-01",
+    time: "9:00 AM – 5:00 PM",
+    location: "Provo",
+    venue: "TBA, Provo",
+    region: "Utah County",
+    category: "Workshop",
+    industry: "Professional Development",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Multiple dates",
+    url: "https://www.eventbrite.com/e/business-networking-1-day-workshop-provo-ut-tickets-1939212860869",
+    description: "Full-day networking skills workshop in Utah County. Build confidence and develop a personalized networking action plan."
+  },
+  {
+    id: 43,
+    title: "Business Networking Workshop — West Jordan",
+    organizer: "LearneRRing",
+    date: "2026-05-08",
+    time: "9:00 AM – 5:00 PM",
+    location: "West Jordan",
+    venue: "TBA, West Jordan",
+    region: "Salt Lake County",
+    category: "Workshop",
+    industry: "Professional Development",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Multiple dates",
+    url: "https://www.eventbrite.com/e/business-networking-1-day-workshop-west-jordan-ut-tickets-1939850889229",
+    description: "Full-day networking skills workshop in West Jordan. Interactive activities, role-playing, and a strategic networking plan."
+  },
+  {
+    id: 44,
+    title: "Salt Lake City Career Fair",
+    organizer: "Various Organizers",
+    date: "2026-04-15",
+    time: "10:00 AM – 2:00 PM",
+    location: "Salt Lake City",
+    venue: "TBA, Salt Lake City",
+    region: "Salt Lake County",
+    category: "Conference",
+    industry: "General Business",
+    cost: "Free",
+    recurring: false,
+    url: "https://www.eventbrite.com/e/salt-lake-city-career-fair-tickets-909388333987",
+    description: "Career fair connecting job seekers with employers across multiple industries in Salt Lake City. Networking and interview opportunities."
+  },
+  {
+    id: 45,
+    title: "NIAX March Social — Midvale",
+    organizer: "NIAX",
+    date: "2026-03-27",
+    time: "5:30 PM – 7:30 PM",
+    location: "Midvale",
+    venue: "TBA, Midvale",
+    region: "Salt Lake County",
+    category: "Networking Mixer",
+    industry: "General Business",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Monthly",
+    url: "https://allevents.in/midvale/niax-march-social-midvale/100001984012703404",
+    description: "NIAX monthly social networking event in Midvale. Relaxed format for building trusted business relationships."
+  },
+  {
+    id: 46,
+    title: "NIAX Next Level Networking — Sandy",
+    organizer: "NIAX",
+    date: "2026-04-10",
+    time: "3:30 PM – 5:00 PM",
+    location: "Sandy",
+    venue: "TBA, Sandy",
+    region: "Salt Lake County",
+    category: "Networking Mixer",
+    industry: "General Business",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Monthly",
+    url: "https://allevents.in/sandy/niax-next-level-networking/100001985631988730",
+    description: "Structured, relationship-driven networking in Sandy. Build trusted referral partnerships with growth-minded professionals."
+  },
+  {
+    id: 47,
+    title: "NIAX Next Level Networking — Farmington",
+    organizer: "NIAX",
+    date: "2026-04-17",
+    time: "3:30 PM – 5:00 PM",
+    location: "Farmington",
+    venue: "TBA, Farmington",
+    region: "Davis County",
+    category: "Networking Mixer",
+    industry: "General Business",
+    cost: "Paid",
+    recurring: true,
+    recurrenceNote: "Monthly",
+    url: "https://allevents.in/farmington/niax-next-level-networking/100001985595836598",
+    description: "Structured networking in Davis County. NIAX's relationship-driven model focused on generating real business referrals."
   }
 ];
 
