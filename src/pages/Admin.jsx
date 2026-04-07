@@ -209,6 +209,7 @@ export default function Admin() {
         </div>
         <div style={s.headerBtns}>
           <button onClick={() => setShowForm(true)} style={s.btnPrimary}>+ Add Event</button>
+          <a href="/admin/submissions" style={{ ...s.btnSecondary, textDecoration: "none", display: "inline-flex", alignItems: "center" }}>Submissions</a>
           <a href="/" style={{ ...s.btnSecondary, textDecoration: "none", display: "inline-flex", alignItems: "center" }}>View Site</a>
           <button onClick={handleLogout} style={s.btnSecondary}>Logout</button>
         </div>

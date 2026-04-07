@@ -317,6 +317,15 @@ export default function Directory() {
 
         {/* Footer */}
         <div style={{ marginTop: 40, padding: "20px 0", borderTop: "1px solid #1e1e2a", textAlign: "center" }}>
+          <div style={{ marginBottom: 16 }}>
+            <a href="/submit" style={{
+              display: "inline-block", padding: "10px 24px", borderRadius: 8,
+              border: "1px solid #2a2560", color: "#a78bfa", fontSize: 13,
+              fontWeight: 600, textDecoration: "none",
+            }}>
+              📝 Know an event we're missing? Submit it →
+            </a>
+          </div>
           <p style={{ fontSize: "12px", color: "#475569", margin: 0, lineHeight: 1.6 }}>
             Events sourced from Eventbrite API and manually verified community sources.<br />
             Events may change — always verify on the organizer's website before attending.
