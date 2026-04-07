@@ -21,7 +21,7 @@ const s = {
   successText: { fontSize: 13, color: "#6ee7a0", margin: 0, lineHeight: 1.5 },
 };
 
-export default function SubmitEvent() {
+export default function Submit() {
   const [form, setForm] = useState({
     title: "", organizer: "", date: "", time: "", location: "", venue: "",
     url: "", description: "", cost: "Free", submitter_name: "", submitter_email: "",
